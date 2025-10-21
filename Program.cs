@@ -59,50 +59,6 @@ public class Solution
 
             }
 
-
-
-            // if (a[i] == '1' && b[i] == '1')
-            // {
-            //     if (retainedAddition > 0)
-            //     {
-            //         result += "1";
-            //         retainedAddition--;
-            //     }
-            //     else
-            //     {
-            //         result += "0";
-            //     }
-            //     retainedAddition++;
-            // }
-
-            // // Case 0 et 0 
-            // if (a[i] == '0' && b[i] == '0')
-            // {
-            //     if (retainedAddition > 0)
-            //     {
-            //         result += "1";
-            //         retainedAddition--;
-            //     }
-            //     else
-            //     {
-            //         result += "0";
-            //     }
-
-            // }
-
-            // // Case 1 et 0 ou 0 et 1
-            // if ((a[i] == '1' && b[i] == '0') || (a[i] == '0' && b[i] == '1'))
-            // {
-            //     if (retainedAddition > 0)
-            //     {
-            //         result += "0";
-            //     }
-            //     else
-            //     {
-            //         result += "1";
-            //     }
-            // }
-
             if (i == 0 && retainedAddition > 0)
             {
                 result += "1";
